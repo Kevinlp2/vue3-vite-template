@@ -12,6 +12,7 @@ export default defineComponent({
   setup() {
     console.log('setup')
     const map = shallowRef(null);
+    
     return {
       map,
     }
